@@ -12,3 +12,7 @@ EtwTiLogDriverObjectLoad - called from IopLoadDriver & IoCreateDriver
 EtwTiLogMapExecView - called from NtMapViewOfSection & MiMapViewOfSectionExCommon  
 EtwTiLogSuspendResumeProcess - called from PsThawProcess, PsFreezeProcess, PsResumeProcess & PsSuspendProcess  
 EtwTiLogSuspendResumeThread - called from PsSuspendThread & PsResumeThread  
+
+## RPC
+### msrpc.sys
+msrpc.sys 真香
