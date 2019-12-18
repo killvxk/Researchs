@@ -18,7 +18,7 @@ EtwTiLogSuspendResumeThread - called from PsSuspendThread & PsResumeThread
 msrpc.sys 真香
 
 ## CSRSS
-·
+```
 NTSTATUS
 WINAPI
 BasepNotifyCsrOfThread(IN HANDLE ThreadHandle,
@@ -48,4 +48,4 @@ BasepNotifyCsrOfThread(IN HANDLE ThreadHandle,
     /* Return Success */
     return STATUS_SUCCESS;
 }
-·
+```
